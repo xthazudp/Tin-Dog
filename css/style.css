@@ -1,0 +1,166 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1 {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Montserrat-Bold";
+  font-size: 1.2rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 1.4rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  color: #f0e9e9cc;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* image */
+.title-image {
+  width: 60%;
+
+  transform: rotate(25deg);
+}
+
+@media (max-width: 62em) {
+  .hero-section {
+    text-align: center;
+  }
+  .title-image {
+    transform: rotate(0);
+    align-items: center;
+  }
+}
+
+/* Features Section */
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 2%;
+}
+
+.feature-icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  color: #ca7985;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 2rem;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 2rem 2rem 5rem;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 10rem;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+.cta-heading {
+  font-size: 2.4rem;
+  color: #fff;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  padding: 2% 15%;
+  background-color: #8f8f8f;
+}
+
+.copyright-text {
+  color: white;
+}
